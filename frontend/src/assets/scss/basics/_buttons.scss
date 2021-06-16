@@ -1,0 +1,30 @@
+.btn-primary {
+    color: $clr6;
+    background-color: $clr1;
+    border: 2px solid $clr1;
+    display: block;
+    padding: rem(12px) rem(26px);
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+        background-color: $clr2;
+        border: 2px solid $clr2;
+    }
+}
+
+.btn-secondary{
+    width:100%;
+    color: $clr1;
+    border: 2px solid $clr1;
+    display: block;
+    padding: rem(12px) rem(26px);
+    text-align: center;
+    text-decoration: none;
+    &:hover {
+        background-color: $clr1;
+       
+        color: $clr6;
+    }
+
+}
